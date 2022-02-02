@@ -1,4 +1,4 @@
-M docker.io/ubuntu
+FROM docker.io/ubuntu
 
 
 RUN  apt update  && apt install apache2 -y
